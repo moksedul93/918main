@@ -1,0 +1,43 @@
+.image-post-slide {
+  text-align: center;
+}
+
+.image-post-slide p {
+  font-size: 20pt;
+  font-family: "Helvetica-light";
+}
+.shop-slider.bg_shop {
+  background: #ebeae8;
+}
+
+/* shop slider start  */
+
+.shop-slider {
+  padding: 40px 0;
+  background-color: #ebeae8;
+}
+
+.slider-main {
+  position: relative;
+}
+.shop-more {
+  position: relative;
+}
+.shop-more .go-btn {
+  position: absolute;
+  left: 45%;
+  top: 14px;
+}
+
+ul li.active {
+  position: relative;
+}
+ul li.active::before {
+  position: absolute;
+  content: "";
+  width: 65%;
+  height: 9px;
+  background: #d7d5d5;
+  top: 32px;
+  left: 15%;
+}

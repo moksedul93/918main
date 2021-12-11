@@ -1,0 +1,62 @@
+.onboard-q1 {
+  padding: 50px 50px 60px 50px;
+  max-width: 700px;
+  max-height: 800px;
+  min-height: 600px;
+  background: #ffffff;
+  margin: auto;
+  -webkit-box-shadow: -2px 10px 117px -5px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: -2px 10px 117px -5px rgba(0, 0, 0, 0.29);
+  box-shadow: -2px 10px 117px -5px rgba(0, 0, 0, 0.29);
+}
+.q1-checkbox-area{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.onboard-q1-main {
+  max-width: 625px;
+  /* background-color: red; */
+  margin: auto;
+}
+.like-to-work h2 {
+  font-size: 30px;
+  color: #010101;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-align: center;
+}
+.like-to-work p {
+  font-size: 16px;
+  color: #595959;
+  font-family: "Helvetica";
+  text-align: center;
+  padding: 0 70px;
+  margin-top: 20px;
+}
+
+.q1-checkbox-area {
+  padding: 0px 0 0 60px;
+  font-family: Helvetica;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.ck-error {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+
+.onboard-q1-main form {
+  /* overflow-y: scroll; */
+  /* max-height: 450px; */
+  /* overflow-x: hidden; */
+}
+.width_fixed{
+  width: 90%;
+  margin: auto !important;
+}
+.q1-checkbox-area {
+  margin: 0;
+}

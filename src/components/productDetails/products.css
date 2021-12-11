@@ -1,0 +1,65 @@
+ p{
+    font-size: 30px;
+    margin-bottom: 1rem !important;
+    margin-top: 30px;
+    
+}
+
+.mb-5, .my-5 {
+    margin-top: 3em;
+}
+
+.text-fav h6{
+    font-family: "Helvetica";
+    font-size: 20px;
+    color:#4f4f4f;
+    padding-bottom: 14px;
+}
+
+.slider-title h3{
+font-family: "Playfair Display";
+padding-bottom: 30px;
+padding-top: 30px;
+}
+.image-post-slide h6{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .slider-title h3{
+       text-align: center;
+        }
+    .text-fav ul.menu-name li.select_design{
+        padding:5px 27px 7px 5px;
+        width: 80%;
+    }
+    .text-fav ul.menu-name li.saveSection.add {
+        margin-left: 0;
+    }
+    .shop-modal-title .text-fav select#cars {
+        padding-right: 20px !important;
+    }
+    select#cars, select#cars:focus {
+        font-size: 14px;
+        background-image: url('../../Asset/Images/arrow-down.png');
+        -webkit-appearance: none;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 11px;
+    }
+    .go-btn button{
+        font-size: 14px;
+        padding: 7px 24px;
+    }
+    .text-fav ul.menu-name{
+        margin-bottom: 0px;
+    }
+    .text-fav ul.menu-name li.saveSection {
+   margin-left: -27px;
+    }
+    .image-post-slide img{
+        width: 75%;
+        height: 258px;
+        object-fit: cover;
+    }
+  }

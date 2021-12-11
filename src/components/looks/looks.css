@@ -1,0 +1,15 @@
+.looks-post img {
+  height: 323px;
+  width: 101%;
+  object-fit: cover;
+}
+.looks-post {
+  margin-bottom: 150px;
+}
+
+.looks-post p {
+  color: #030303;
+  font-size: 20px;
+  text-align: center;
+  font-family: "PlayfairDisplay-Bold";
+}

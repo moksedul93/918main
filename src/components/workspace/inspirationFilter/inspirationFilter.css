@@ -1,0 +1,118 @@
+ul.list-category {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  clear: both;
+}
+.shop-furniture {
+  background: #ffffff;
+  padding: 30px 5px;
+  width: 72%;
+  margin: auto;
+  text-align: center;
+}
+.inspired-fil {
+  background: #ffffff;
+  padding: 30px 5px;
+  width: 53%;
+  margin: auto;
+  text-align: center;
+  min-height: 620px;
+}
+.inspired-fil .cross-icon, .shop-furniture .cross-icon {
+    float: right;
+}
+.inspired-fil .cross-icon img, .shop-furniture .cross-icon img {
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+ul.list-category li {
+  width: 50%;
+}
+ul.list-category li button {
+  background: #e9e8e8;
+  border: none;
+  width: 250px;
+  margin-bottom: 21px;
+  padding: 15px 0;
+  font-size: 18px;
+  border-radius: 50px;
+  font-family: "Helvetica-light";
+  outline: none;
+}
+.nav-tabs .nav-link.active {
+  border-color: #d7d5d5 !important;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom-width: 6px !important;
+  color: #111111 !important;
+}
+.nav-tabs {
+  border-bottom: none !important;
+  outline: none;
+  font-size: 26px;
+  color: #111111;
+  font-family: "PlayfairDisplay-Bold"
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border-color:transparent ;
+}
+ul.list-category li.activebtn button {
+  background: #979292;
+}
+.removeIconsinsp ul {
+  margin: 0;
+  padding: 0;
+}
+.removeIconsinsp ul li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+.removeIconsinsp {
+  padding: 0px 0 50px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  ul.list-category li button{
+    background: #e9e8e8;
+    border: none;
+    width: 140px;
+    margin-bottom: 21px;
+    padding: 15px 0;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: "Helvetica-light";
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  ul.list-category li button{
+    background: #e9e8e8;
+    border: none;
+    width: 108px;
+    margin-bottom: 21px;
+    padding: 15px 0;
+    font-size: 14px;
+    border-radius: 50px;
+    font-family: "Helvetica-light";
+    outline: none;
+  }
+  .inspired-fil {
+    background: #ffffff;
+    padding: 30px 5px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    min-height: 620px;
+}
+}
+
+

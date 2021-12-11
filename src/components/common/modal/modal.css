@@ -1,0 +1,69 @@
+.modalScrool {
+    overflow-y: scroll !important;
+}
+.bg-white {
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .modal.show{
+        overflow-y: scroll;
+    }
+    .auth-signup , .onboard-q1{
+         max-height: 100% !important;
+    }
+    .signup-form, .onboard-q1 {
+        padding: 10px 20px !important;
+    }
+    .have-account {
+        margin-top: 20px !important;
+    }
+    button.btn.btn-signup {
+        width: 100%;
+    }
+    .q1-checkbox-area{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .like-to-work p {
+        padding: 0 !important;
+    }
+    .onboard-q2 {
+        padding: 25px 0 !important;
+    }
+    .login-next .mf-left {
+        padding: 55px 20px !important;
+    }
+    .mf-left h2 {
+        font-size: 26px !important;
+        text-align: center !important;
+    }
+    .mf-left p {
+        font-size: 20px !important;
+        letter-spacing: initial;
+    }
+    .onboard-item img {
+        width: 110% !important;
+        height: 76px !important;
+        object-fit: contain;
+    }
+    .onboard-q3 img{
+        width: 110% !important;
+        height: 76px !important;
+        object-fit: contain;   
+    }
+    .like-to-work h2{
+        font-size: 23px !important;
+    }
+    .login-next {
+        width: 85%;
+    }
+    .row.my-4.width_fixed {
+        background: #fff;
+        margin: 0 !important;
+        width: 100%;
+    }
+    .imageLeft {
+        margin-left: 10px;
+    }
+    
+}

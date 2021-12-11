@@ -1,0 +1,190 @@
+ .cross-icon, .shop-furniture .cross-icon {
+    float: right;
+}
+.cross-icon img, .shop-furniture .cross-icon img {
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.bg-white{
+    padding-top: 40px;
+}
+
+.image-fav-modal img {
+    width: 105%;
+    height: 280px;
+  }
+.container-fluid.page-content{
+    overflow-x: hidden;
+}
+.shop-modal-title .text-fav span {
+    font-family: "Playfair Display";
+    font-size: 24px;
+  }
+  .shop-modal-title .text-fav h6 {
+    font-family: "Helvetica";
+    color: #808080;
+    font-size: 15px;
+    padding-bottom: 0px;
+      }
+ .shop-modal-title .text-fav p {
+ font-family: "Helvetica";
+ color: #808080;
+ font-size: 20px;
+ margin-top: 10px;
+ }
+
+ .shop-modal-title .text-fav .go-btn button{
+    font-size: 15px;
+ }
+
+ .shop-modal-title .text-fav select#cars{
+    font-size: 16px !important;
+    padding: 0px 7px !important;
+    margin-right: 6px !important;
+ }
+.menu-name .board-error{
+    color: red !important;
+    font-family: 'Helvetica-light' !important;
+}
+.for-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+.for-desktop {
+    display: none;
+}
+.for-mobile {
+    display: block;
+}
+.dragDrop {
+    height: 350px;
+    min-height: auto;
+}
+.box.boxoverlay img {
+    width: 120px !important;
+    height: 80px !important;
+}
+.middle-body {
+    min-height: 350px;
+}
+.textmiddle {
+    transform: translatey(150px);
+}
+.bottom-icons {
+    transform: rotate(270deg);
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    z-index: 999;
+}
+.bottom-icons img {
+    transform: rotate(270deg);
+}
+.styleformobile {
+    flex-direction: column-reverse;
+}
+}
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .page-content{
+        margin-top: 190px;
+    }
+    .workimage-ins img {
+        height: 130px;
+    }
+    .post-slide-main-item .workimage-ins.row img {
+        height: 50px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 767px) and (min-width: 320px) {
+    .image-fav-modal{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+      .inspired-modal .slider .arrow-slide img {
+        width:25px;
+        height: 44px;    
+    }
+    .shop-modal h3{
+        margin-left: 0px !important;
+        text-align: center;
+    }
+    .page-content{
+        margin-top: 100px;
+    }
+    .inspired-modal {
+        padding: 0px 0px !important;
+    }
+    .shop-furniture {
+        width: 100%;
+    }
+    ul.list-categroy-shop li button {
+        background: #e9e8e8;
+        border: none;
+        width: 80px;
+        margin-bottom: 10px;
+        padding: 12px 0;
+        font-size: 13px;
+        border-radius: 22px;
+        font-family: "Helvetica";
+        outline: none;
+    }
+    .workimage img {
+        width: 48%;
+        margin-right: 5px;
+  }
+}
+
+.hello{
+    overflow: scroll;
+}
+.tab-index .small-slide{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.small-slide img{
+    height: 168px !important;
+}
+.small-slide .arrow-slide img{
+    height: 44px !important;
+}
+.shop-modal{
+    margin-bottom: -70px;
+}
+.shop-modal h3{
+    margin-left: 150px;
+}
+
+.inspired-modal {
+    width: 85% !important;
+}
+
+.inspired-modal .slider img {
+    width:180px;
+    height: 170px;
+}
+.inspired-modal .slider .arrow-slide img {
+    width:25px;
+   height: 44px;
+    
+}
+.small-slide h2{
+    font-size: 16px !important;
+}
+
+.shop-modal-title .menu-name {
+    margin-bottom: 5px !important;
+}
+
+.shop-modal-title .text-fav {
+    margin-top: 20px ;
+    margin-bottom: auto;
+}

@@ -1,0 +1,48 @@
+.realted-product {
+  padding-top: 25px;
+  background: #ebeae8 !important;
+}
+
+.related-title {
+  
+  font-family: "PlayfairDisplay-Bold";
+  padding-bottom: 40px;
+  padding-top: 45px;
+}
+.realted-product .slide-main .row, .realted-resourced .slide-main .row{
+  margin-bottom: 0 !important;
+}
+.realted-resourced{
+  background-color: #ebeae8;
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+  .marginnine {
+    margin-top: 70px !important;
+}
+  
+  .related-title {
+    text-align: center;
+  }
+  .tab-index .slider h6{
+    margin-top:0px;
+    margin-bottom: 15px;
+  }
+  /* .image-slide-slider4 img{
+    width: 70%;
+    height: 204px;
+  } */
+  .image-fav{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .image-fav img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .image-slide-slider4 img{
+    margin-right: auto;
+    margin-left: auto;
+    width: 82%;
+  }
+}

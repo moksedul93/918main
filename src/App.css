@@ -1,0 +1,16 @@
+@import "../src/Asset/Fonts/fonts.css";
+
+/* // global css declared below */
+.pointer {
+  cursor: pointer;
+}
+.disable {
+  pointer-events: none;
+}
+.remove-u-line {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+.link-color {
+   color:#007bff !important; 
+}

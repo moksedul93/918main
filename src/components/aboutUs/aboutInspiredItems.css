@@ -1,0 +1,24 @@
+.aboutinspireditems h2, .ready_for h4 {
+    color: #030303;
+    font-size: 36pt;
+    font-family: "PlayfairDisplay-Bold";
+    margin-bottom: 40px;
+}
+.aboutinspireditems span {
+    color: #030303;
+    font-size: 30px;
+    font-family: "Helvetica-light";
+}
+.iconLogo img {
+    width: 70px;
+    height: auto;
+}
+.iconLogo p {
+    color: #111111;
+    font-size: 24px;
+    margin-top:15px;
+    font-family: "Helvetica-light";
+}
+.row{
+    margin-bottom: 70px;
+}

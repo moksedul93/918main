@@ -1,0 +1,94 @@
+.account-slider .slider img {
+    width: 100% !important;
+    object-fit: cover;
+    margin-bottom: 5px;
+    object-position: center;
+}
+.account-slider .arrow-slide img {
+    width: 25px !important;
+    height: auto;
+}
+.account-slider .arrow-right.arrow-slide {
+    right: -30px;
+}
+.account-slider .arrow-left.arrow-slide {
+    left: -30px;
+}
+.account-title {
+    text-align: center;
+}
+.account-sidebar h4 {
+    text-align: center;
+    color: #030303;
+    font-family: "PlayfairDisplay-Bold";
+    font-size: 30px;
+}
+.account-sidebar h3{
+    font-family: "PlayfairDisplay-Regular";
+    font-size: 28px;
+    color: #030303;
+}
+.account-title h4 {
+    margin-bottom: 25px;
+}
+.account-title h5, .emaillabel .email {
+    color: #4f4f4f;
+    font-size: 17px;
+    font-family: "helvetica-light";
+}
+.emaillabel, span.nameSpan{
+    font-weight: bold;
+    color: #4f4f4f;
+}
+.bg-color {
+    background-color: #eae9e9;
+    max-width: 22% !important;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.redirection-btn{
+    background:none;
+    border:none;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .account-sidebar, .containerLogin {
+        margin-top: 100px;
+    }
+
+    .bg-color{
+        max-width: 80% !important;
+    }
+
+    .account-slider .arrow-right.arrow-slide{
+        right: 0;
+    }
+    .account-slider .arrow-left.arrow-slide{
+        left: 0;
+    }
+    .s-t-a {
+        margin-left: 0px !important;
+    }
+    .account-slider .slider img {
+        width: 100% !important;
+        object-fit: contain;
+        object-position: unset;
+    }
+    .account-slider .arrow-slide img {
+        width: 25px !important;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .account-sidebar, .containerLogin {
+        margin-top: 130px;
+    }
+    .bg-color {
+        max-width: inherit !important;
+        margin-left: 0;
+        padding: 30px;
+        overflow: hidden;
+    }
+    .account-sidebar h4 {
+        font-size: 26px;
+    }
+}

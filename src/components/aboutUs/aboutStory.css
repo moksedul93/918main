@@ -1,0 +1,85 @@
+@import '../../Asset/Fonts/fonts.css';
+.img-about img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
+.img-about2 img {
+    width: 100%;
+    height: 748px;
+    object-fit: contain;
+}
+
+.text-about {
+    text-align: center;
+    margin-top: 10%;
+}
+.text-about h2 {
+    text-align: center;
+    font-family: "PlayfairDisplay-Bold";
+    font-size: 36pt;
+    margin-bottom: 30px;
+}
+.text-about p {
+    font-family: "Helvetica-light";
+    font-size: 24px;
+    line-height: normal;
+}
+.about-section{
+    margin-top: 50px;
+}
+.list-furniture.about-us h4:before {
+    width: 13%;
+    margin-left: 20px;
+}
+.about-img-section {
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .img-about img {
+        width: 100%;
+        height: 365px;
+    }
+    .img-about2 img {
+        width: 100%;
+        height:525px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .list-furniture.about-us h4:before {
+        width: 45%;
+    }
+
+    .list-furniture {
+        margin-top: 95px !important;
+    }
+    .text-about {
+        margin-top: 0;
+    }
+    .img-about img {
+        height: 245px;
+    }
+    .img-about2 img {
+        width: 100%;
+        height: 430px;
+    }
+    .about-img-section .text-about {
+        margin-top: 30px;
+    }
+    .iconLogo p {
+        text-align: justify;
+    }
+    .aboutinspireditems h2, .ready_for h4, .text-about h2 {
+        font-size: 28pt;
+    }
+    .icons-header-lights h5 {
+        font-size: 26px;
+    }
+}
+.row {
+    margin-bottom: 30px !important;
+}

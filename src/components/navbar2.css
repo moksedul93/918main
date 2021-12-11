@@ -1,0 +1,33 @@
+@import '../Asset/Fonts/fonts.css';
+
+.nav-secondary {
+  background: #ffffff;
+  padding: 27px 0;
+}
+.nav-secondary .logo img {
+  width: 268px;
+  height: 62px;
+  margin-right: 84px;
+}
+.nav-secondary ul li {
+  vertical-align: middle;
+}
+.font-hel a {
+  font-family: "Helvetica";
+  font-size: 18px;
+  color: #111111 !important;
+  line-height: 33px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.signup .nav-link {
+  background: #030303;
+  color: #ffffff;
+  border-radius: 21px 21px;
+  padding: 5px 16px !important;
+  font-family: "Helvetica-bold";
+  cursor: pointer;
+}
+.nav-right ul li {
+  display: inline-block;
+}

@@ -1,0 +1,381 @@
+ul.home-menu {
+  list-style: none;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+ul.home-menu li {
+  display: inline-block;
+}
+ul.home-menu li {
+  display: inline-block;
+}
+.menu-icon li.menu-item.man {
+  padding-right: 0px !important;
+  margin: 0;
+}
+.display-for-mobile {
+  display: none;
+}
+ul.home-menu li a {
+  color: #111111;
+  font-size: 18px;
+  font-family: "helvetica-light";
+}
+ul.search-container {
+  background: #dadada;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 40px 50px;
+  text-align: left;
+  line-height: 32px;
+  z-index: 999;
+  /* display: none; */
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+  div.search-float {
+    width: 100% !important;
+    float:right !important;
+  }
+  #navbarNav{
+    display: none;
+  }
+  ul.home-menu li.searchHandle img{
+    float: right !important;
+    margin-left: 7px;
+    margin-top: 22px !important;
+    right: 0;
+    left: auto !important;
+  }
+  ul.home-menu li.searchHandle input{
+    float: right !important;
+    margin-top: 22px;
+    /* width: 100% !important; */
+  }
+  ul.home-menu li.searchHandle input {
+    width: 0% !important;
+  }
+  ul.home-menu li.searchHandle:hover input.btn-srachw, ul.home-menu li.searchHandle:hover input.btn-srach {
+    background-color:#eae9e9 !important;
+    width: 100% !important;
+    color: #000 !important;
+  }
+  ul.search-container {
+    top: 85px;
+  }
+  ul.home-menu li.searchHandle{
+    width: 100% !important;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding-right: 18px;
+  }
+  ul.home-menu li {
+    display: block;
+    margin-right: 0px;
+    text-align: right;
+  }
+  div.menu-float {
+    width: 100% !important;
+    padding-top: 5px;
+  }
+  ul.home-menu {
+    min-height: 315px;
+  }
+  #menu nav.navbar-expand-lg.navbar-light,
+  #menu button.navbar-toggler {
+    float: right;
+    width: 100%;
+    text-align: right;
+  }
+  div#menu {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0 !important;
+    outline: none;
+    z-index: 999;
+  }
+  ul.home-menu li.logo {
+    display: none;
+  }
+  ul.home-menu li {
+    display: block;
+    margin-right: 0px;
+  }
+  #menu .signup {
+    margin-right: 5px !important;
+    width: 45%;
+    float: right;
+  }
+  .icons-header-lights {
+    margin-top: 25px !important;
+  }
+  #menu button.navbar-toggler {
+    outline: none;
+    border: none;
+    margin-top: -58px;
+    width: 100px;
+  }
+
+  .menu-icon li.menu-item.man {
+    padding: 0 !important;
+    margin-right: 5px;
+  }
+  span.menu-icon {
+    display: block;
+    clear: both;
+    text-align: right;
+  }
+  div.search-float li.search {
+    margin-top: 10px;
+  }
+  .display-for-mobile {
+    display: block;
+  }
+  .logo-width.display-for-mobile {
+    width: 60%;
+  }
+
+  .logo-width.display-for-mobile img {
+    width: 100%;
+    height: auto;
+  }
+  .collapse.navbar-collapse.bg-lights.show {
+    background: #f8f9fa !important;
+  }
+  ul.home-menu li a {
+    text-align: right;
+  }
+  li.menu-item.font-hel .dropdown-content{
+    min-width: 150px !important;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .logo-width.display-for-mobile {
+    width: 30%;
+  }
+  #menu .signup {
+    width: 21%;
+  }
+ 
+  /* #menu button.navbar-toggler {
+    margin-top: -125px;
+} */
+  #menu .signup {
+    width: 20% !important;
+  }
+  .home-text h2 {
+    padding-top: 190px;
+    font-size: 40pt;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .logo-width.display-for-mobile {
+    width: 80% !important;
+    margin-top: 6px;
+  }
+.logo-width.display-for-mobile img {
+  width: 75%;
+  float: right;
+}
+
+#menu button.navbar-toggler {
+  margin-top: -45px !important;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .logo-width.display-for-mobile {
+    width: 60%;
+  }
+  #menu .signup {
+    width: 40%;
+    text-align: center;
+
+  }
+  /* .logo-black{
+    display: none;
+  } */
+}
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  div.menu-float {
+    width: 45% !important;
+  }
+  div.logo-width {
+    width: 35% !important;
+    margin-top: -15px !important;
+  }
+  div.search-float {
+    width: 20% !important;
+  }
+  #menu > ul li {
+    padding-right: 0 !important;
+  }
+  li.logo-black.logoMobile {
+    display: block !important;
+  }
+  li.menu-item.font-hel .dropbtn {
+    padding-right: 20px !important;
+    padding-left: 0px !important;
+}
+li.menu-item.man img, li.menu-item.shop img {
+  width: 24px !important;
+}
+ul.home-menu li.searchHandle{
+    width: 100% !important;
+}
+ul.home-menu li.searchHandle:hover input.btn-srach, ul.home-menu li.searchHandle:hover input.btn-srachw{
+  color: #000 !important;
+  width: 100% !important;
+}
+}
+li.menu-item.font-hel .dropbtn {
+  background-color: #ffffff00;
+  color: #000;
+  padding: 8px 42px 8px 23px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-family: Helvetica;
+  outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+li.menu-item.font-hel .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+li.menu-item.font-hel .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 20px;
+}
+
+/* Links inside the dropdown */
+li.menu-item.font-hel .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 20px;
+}
+
+/* Change color of dropdown links on hover */
+li.menu-item.font-hel .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+li.menu-item.font-hel .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ffffff00;
+}
+
+/* .search-container {
+  background: #f1f1f1 !important;
+  padding: 5px 10px;
+} */
+ul.home-menu li.searchHandle input {
+  width: 10%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 1.375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  float: left;
+  color: #495057;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: none;
+  /* border-radius: 0.25rem; */
+  border-radius: 50px;
+  text-align: left;
+  outline: none;
+  /* display: none; */
+  transition: all .5s;
+}
+ul.home-menu li.searchHandle:hover input.btn-srachw {
+  width: 80%;
+  padding-left: 2.5rem;
+  background-color:#fff;
+}
+ul.home-menu li.searchHandle:hover input.btn-srach {
+  width: 80%;
+  padding-left: 2.5rem;
+  background-color: #eae9e9;
+  color: #fff;
+}
+.btn-srach-width {
+  display: block;
+}
+ul.home-menu li.searchHandle {
+  position: relative;
+  width: 10%;
+}
+ul.home-menu li.searchHandle:hover {
+  width: 80%;
+}
+ul.home-menu li.searchHandle img {
+  width: 44px;
+  height: 44px;
+  /* margin-right: 7px; */
+  /* margin-top: 12px; */
+  float: left;
+  cursor: pointer;
+  background: #fff00000;
+  padding: 13px 13px;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius:0.25rem ;
+  position: absolute;
+  left: 1px;
+  top: 2px;
+  
+}
+ul.home-menu ul.search-container li.search-item{
+  display: block;
+}
+@media screen and (max-width: 1299px) and (min-width: 1025px) {
+  ul.home-menu .nav-link {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+}
+@media screen and (max-width: 1014px) and (min-width: 992px) {
+  ul.home-menu .nav-link {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+.logo-width.display-for-mobile img {
+  width: 65% !important;
+  float: left;
+  margin-top: 15px;
+}
+.logo-width.display-for-mobile {
+  width: 70% !important;
+  float: right;
+  margin-top: 5px;
+}
+#menu button.navbar-toggler {
+  margin-top: -65px !important;
+}
+}

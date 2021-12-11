@@ -1,0 +1,78 @@
+.inspired-slider ul,
+ul.shopTab {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 40px;
+  position: relative;
+}
+
+.inspired-slider h4,
+.shop-slider.bg_shop h4 {
+  position: relative;
+  font-size: 36px;
+  color: #030303;
+  font-family: "PlayfairDisplay-Bold";
+  padding-bottom: 25px;
+}
+
+.inspired-slider {
+  margin-top: 40px;
+  background-color: #ebeae8;
+  padding: 45px 0;
+}
+.inspired-more {
+  position: relative;
+}
+
+.inspired-more .go-btn {
+  position: absolute;
+  left: 45%;
+  top: 16px;
+}
+.inspired-slider ul:before,
+ul.shopTab::before {
+  content: "";
+  position: absolute;
+  width: 102%;
+  height: 3px;
+  background: #d7d5d5;
+  top: 36px;
+  left: -20px;
+}
+.inspired-slider ul li,
+ul.shopTab li {
+  display: inline-block;
+  margin: 0 35px 0 0;
+  font-family: "Helvetica-light";
+  font-size: 16px;
+}
+.inspired-slider ul li.active {
+  position: relative;
+}
+.inspired-slider ul li.active::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: #d7d5d5;
+  top: 32px;
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+.image-slide img {
+  width: 80%;
+  margin: auto;
+}
+.inspired-slider ul li, ul.shopTab li, .list-furniture ul li{
+  height: 45px;
+}
+.list-furniture ul::-webkit-scrollbar {
+  display: none;
+}
+.inspired-slider ul:before{
+  width: 315%;
+}
+ ul.shopTab::before{
+  width: 225%;
+}
+}
